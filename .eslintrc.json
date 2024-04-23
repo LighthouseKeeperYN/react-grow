@@ -8,6 +8,40 @@
   "rules": {
     "react-refresh/only-export-components": ["warn", { "allowConstantExport": true }],
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "arrow-body-style": "off",
+    "camelcase": "off",
+    "consistent-return": "off",
+    "function-paren-newline": "off",
+    "func-call-spacing": "off",
+    "indent": [
+      "error",
+      2,
+      { "ignoredNodes": ["VariableDeclaration[declarations.length=0]"], "SwitchCase": 1 }
+    ],
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
+    "max-len": "off",
+    "newline-per-chained-call": "off",
+    "no-empty-function": ["error", { "allow": ["constructors"] }],
+    "no-underscore-dangle": "off",
+    "no-use-before-define": "off",
+    "no-useless-constructor": "off",
+    "no-param-reassign": ["error", { "props": false }],
+    "no-confusing-arrow": "off",
+    "no-spaced-func": "off",
+    "no-shadow": "off",
+    "no-unused-expressions": ["error", { "allowTernary": true }],
+    "no-unused-vars": "off",
+    "import/no-extraneous-dependencies": ["error", { "peerDependencies": false }],
+    "object-curly-newline": "off",
+    "prefer-destructuring": ["error", { "object": true, "array": false }],
+    "quote-props": ["error", "consistent"],
+    "import/extensions": ["warn", { "mjs": "always", "json": "always" }],
+    "import/prefer-default-export": "off",
+    "tailwindcss/classnames-order": "off",
+    "tailwindcss/no-custom-classname": "off",
+    "@typescript-eslint/ban-ts-comment": ["error", { "ts-ignore": "allow-with-description" }],
+    "@typescript-eslint/no-useless-constructor": ["error"],
+    "@typescript-eslint/func-call-spacing": ["error"]
   }
 }
